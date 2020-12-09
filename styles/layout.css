@@ -1,0 +1,24 @@
+body {
+    /* background-color: ; */
+    display: grid;
+    grid-template-columns: minmax(13px, 172px) [s] 1fr [e] minmax(13px, 172px);
+    grid-template-rows: [navbar-s] 140px [navbar-e hero-s] 500px [hero-e pic-s] 600px [pic-e contact-s] 600px [contact-e footer-s] 400px [footer-e]
+}
+
+nav {
+    grid-row: navbar-s/navbar-e;
+    grid-column: s/e;
+}
+
+
+.middle {
+    grid-row: hero-s/hero-e;
+    grid-column: s/e;
+}
+
+
+
+.footer {
+    grid-row: footer-s/footer-e;
+    grid-column: s/e;
+}

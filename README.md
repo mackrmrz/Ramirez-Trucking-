@@ -1,3 +1,3 @@
-Simple project for local trucking company. 
+Simple project for local trucking company.
 
 HTML, CSS/SCSS, MediaQuiry
