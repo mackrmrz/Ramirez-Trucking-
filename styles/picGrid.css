@@ -1,0 +1,64 @@
+.features-prices {
+    background: rgb(129, 129, 129 );
+
+    grid-column: s/e;
+    grid-row: pic-s/pic-e;
+    display: grid;
+    grid-template-rows: [top-s] 172px [top-e bottom-s] 172px [bottom-e];
+    grid-template-columns: [first-col-s] 1fr [ first-col-e second-col-s] 1fr [second-col-e] 1fr;
+    gap: 1em 0.5em;
+    padding: 10px 10px;
+}
+
+
+.first-image{
+    background-image: url("/images/dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: first-col-s/first-col-e;
+    grid-row: top-s/top-e;
+}
+
+.second-image {
+    background-image: url("/images/fleet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: second-col-s/second-col-e;
+    grid-row: top-s/top-e;
+}
+
+.third-image {
+    background-image: url("/images/inahurry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-row: top-s/top-e;
+    grid-column: second-col-e;
+}
+
+.fourth-image {
+    background-image: url("/images/peterbuilt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: first-col-s/first-col-e;
+    grid-row: bottom-s/bottom-e;
+}
+.fith-image {
+    background-image: url("/images/resting.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: second-col-s/second-col-e;
+    grid-row: bottom-s/bottom-e;
+}
+
+.sixth-image {
+    background-image: url("/images/searching.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-column: second-col-e;
+}

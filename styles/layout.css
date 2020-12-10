@@ -1,8 +1,9 @@
 body {
-    /* background-color: ; */
-    display: grid;
+    color: #e1a908;
+    text-shadow: .1rem .1rem .5rem black; 
+    /* display: grid;
     grid-template-columns: minmax(13px, 172px) [s] 1fr [e] minmax(13px, 172px);
-    grid-template-rows: [navbar-s] 140px [navbar-e hero-s] 500px [hero-e pic-s] 600px [pic-e contact-s] 600px [contact-e footer-s] 400px [footer-e]
+    grid-template-rows: [navbar-s] 140px [navbar-e hero-s] 500px [hero-e pic-s] 400px [pic-e contact-s] 300px [contact-e footer-s] 300px [footer-e] */
 }
 
 nav {
@@ -10,13 +11,10 @@ nav {
     grid-column: s/e;
 }
 
-
 .middle {
     grid-row: hero-s/hero-e;
     grid-column: s/e;
 }
-
-
 
 .footer {
     grid-row: footer-s/footer-e;
