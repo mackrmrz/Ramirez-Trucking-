@@ -8,21 +8,25 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/65eabb10a8.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/styles/layout.css" />
-    <link rel="stylesheet" href="/styles/picGrid.css" />
+    <link rel="stylesheet" href="/styles/animated-grid.css" />
     <link rel="stylesheet" href="/styles/hero-section.css" />
     <link rel="stylesheet" href="/styles/about.css" />
     <title>Ramirez $</title>
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar bg-dark">
       <span
         class="navbar-toggler-icon collapse navbar-collapse"
         data-bs-toggle="collapse"
         data-bs-target="#navbarToggler"
         aria-controls="navbarToggler"
         aria-expanded="false"
-        aria-label="Toggle navigatio"
+        aria-label="Toggle navigation"
       ></span>
       <div class="nav container" id="navbarToggler">
         <div class="logo navbar-brand">Ramirez Trucking</div>
@@ -33,61 +37,137 @@
         </ul>
       </div>
     </nav>
-    <div class="middle">
       <div class="hero-section">
         <header>
-          <h5>Over the Road Owner Operator</h5>
+          <h1>Owner Operator</h1>
         </header>
         <p>
-          Ipsa!Expedita eaque voluptatem optio! Nobis laborum ut voluptate nisi,
-          reiciendis unde illo quisquam alias provident quis expedita hic eius
-          tenetur reprehenderit labore architecto dolorum fugiat perspiciatis
-          maxime accusantium facilis non?
+          Experinced driver Hauling fifty three footers, fast, efficiant, and always on time
         </p>
         <a class="button btn btn-lg" href="#about">About</a>
         <!-- looking to select a part of the page  button-->
       </div>
-      <div class="features-prices cointaner-fluid">
-        <div class="first-image">
-          <h1>Cargo</h1>
-        </div>
-        <div class="second-image"></div>
-        <div class="third-image">
-          <h1>Cargo</h1>
-        </div>
-        <div class="fourth-image">
-          <h1>Cargo</h1>
-        </div>
-        <div class="fith-image">
-          <h1>Cargo</h1>
-        </div>
-        <div class="sixth-image">
-          <h1>Cargo</h1>
-        </div>
-        <!--  images in grid with hover effe -->
+      <div class="container-sm rep-header">
+        <h1>experience</h1>
+        <span class="break-line"></span>
+        <h6>accompolishments</h6>
       </div>
-    </div>
-    <div class="about container card">
-      <div class="row g-0">
-        <div class="personnal-image col-md-4">
-          <img class="img-fluid" src="/images/lonetrucker.jpeg" alt="" />
+      <div class="container features">
+        <div class="features-prices row">
+          <div class='box col-xs-12 col-lg-4'>
+            <div class="image1"></div>
+              <div class="overlay"></div>
+              <div class="overlay2"></div>
+              <div class="text">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h2>Working on the road</h2>
+                <p>Operated by Carlos Ramirez</p>
+              </div>
+          </div>
+          <div class="box col-xs-12 col-lg-4">
+            <div class="image2"></div>
+              <div class="overlay"></div>
+              <div class="overlay2"></div>
+              <div class="text">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h2>Working on the road</h2>
+                <p>Family Owned and Operated</p>
+              </div>
+          </div>
+          <div class="box col-xs-12 col-lg-4">
+            <div class="image3"></div>
+              <div class="overlay"></div>
+              <div class="overlay2"></div>
+              <div class="text">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h2>Working on the road</h2>
+                <p>Established Since 2003</p>
+              </div>
+          </div>
         </div>
-        <div class="personnal-bio col-md-8">
-          <div class="card-body">
-            <h1 class="card-header">Carlos M. Ramirez</h1>
-            <h3>Owner Operator, Ramirez & Son Inc</h3>
-            <h6>Established in 1999</h6>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
-              accusamus aspernatur nisi itaque qui quidem
-            </p>
+        <div class="features-prices row mt-5 align-content-center">
+          <div class="box col-xs-12 col-lg-4">
+            <div class="image4"></div>
+              <div class="overlay"></div>
+              <div class="overlay2"></div>
+              <div class="text">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h2>Working on the road</h2>
+                <p>Over 30 years in Logistics</p>
+              </div>
+          </div>
+          <div class="box col-xs-12 col-lg-4">
+            <div class="image5"></div>
+              <div class="overlay"></div>
+              <div class="overlay2"></div>
+              <div class="text">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h2>Working on the road</h2>
+                <p>Cargo</p>
+              </div>
+          </div>
+          <div class="box col-xs-12 col-lg-4">
+
+            <div class="image6"></div>
+              <div class="overlay"></div>
+              <div class="overlay2"></div>
+              <div class="text">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h2>Working on the road</h2>
+                <p>Cargo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+              <!--  images in grid with hover effe -->
+    <div class="about container">
+      <div class="row g-0">
+        <div class="card">
+          <div class="personnal-image col-md-4">
+            <img class="img-fluid" src="/images/lonetrucker.jpeg" alt="" />
+          </div>
+          <div class="personnal-bio col-md-8">
+            <div class="card-body">
+              <h1 class="card-header">Carlos M. Ramirez</h1>
+              <h3>Owner Operator, Ramirez & Son Inc</h3>
+              <h6>Established since 1999</h6>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                accusamus aspernatur nisi itaque qui quidem
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="footer"></div>
+    </div> 
+    <div class="footer row">
+      <div class="container bg-dark">
+        <div class="navbar-brand">
+          <h1>RAMIREZ & SON TRUCKING</h1>
+        </div>
+        <h3>Let Me Know How I can help</h3>
+        <i class="fas fa-at">ramireztrucking73@yahoo.com</i>
+      </div>
+    </div> 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
       integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
